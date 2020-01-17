@@ -4,11 +4,11 @@ print("Comentário de uma linha")
 # Comentário multi linha
 # Linha 2
 # Linha 3
-print("Comentário multi linha")
+print("Comentário multilinhas")
 
 """ 
-    Comentário multi linha
+    Comentário multilinhas
     Linha 2
     Linha 3 
 """
-print("Comentário multi linha")
+print("Comentário multilinhas")
