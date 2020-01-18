@@ -10,7 +10,10 @@ def multiplicacao(num1, num2):
     return num1 * num2
 
 def divisao(num1, num2):
-    return num1 / num2
+    try:
+        return num1 / num2
+    except ZeroDivisionError:
+        print("Não é possível dividir {} / {} ".format(num1, num2))
 
 # Validação das funções criadas
 # Soma
@@ -32,4 +35,3 @@ assert multiplicacao(0.5, 1) == 0.5
 assert divisao(1, 1) == 1
 assert divisao(-1, -5) == 0.2
 assert divisao(0.5, 1) == 0.5
-assert divisao(10, 0) == 0
